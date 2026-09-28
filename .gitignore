@@ -1,0 +1,20 @@
+# build artifacts (build locally with `make`)
+*.dylib
+*.so
+*.dll
+*.h
+lobsterai
+
+# local credentials / env
+*.env
+.oauth
+auths/
+
+# editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# internal handover doc — contains local management key & account ids, never publish
+HANDOVER.md
